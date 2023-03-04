@@ -1,0 +1,127 @@
+body {
+    background: linear-gradient(to right, violet, rgb(179, 45, 68), rgb(189, 107, 121))
+}
+
+.menu-dropdown {
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-span {
+    font-size: 50px;
+    padding: 100px;
+}
+
+li:hover {
+    background: black;
+}
+
+a {
+    color: violet;
+    text-decoration: none;
+    border: outset 5px violet;
+    padding: 50px;
+    border-radius: 10px;
+    width: 700px;
+}
+
+a:hover {
+    background: linear-gradient(to right,  violet, rgb(179, 45, 68), rgb(189, 107, 121));
+    color: white;
+}
+
+.menu {
+    position: relative;
+}
+
+.botao-links {
+    box-shadow: 10px 10px 5px black;
+}
+
+.menu:hover {
+    margin-left: 50px;
+}
+
+.menu:hover .botao-links {
+    background: linear-gradient(to right,  violet, rgb(179, 45, 68), rgb(189, 107, 121));
+    color: white;
+}
+
+.links {
+    position: absolute;
+    padding-top: 30px;
+    display: none;
+    margin-left: 20%;
+}
+
+.links:hover {
+    padding-top: 70px;
+    transform: scale(1.1);
+    transition: all 0.9s;
+}
+
+.menu:hover .links {
+    display: block;
+}
+
+.link-perfil {
+    padding-top: 70px;
+    margin-bottom: 30px;
+}
+
+.link-perfil:hover {
+    padding-left: 30px;
+}
+
+.perfil-span {
+    padding-right: 65px;
+    margin-left: 45px;
+}
+
+.link-contato {
+    padding-top: 80px;
+    margin-bottom: 30px;
+}
+
+.link-contato:hover {
+    padding-left: 30px;
+}
+
+.contato-span {
+    padding-right: 55px;
+    margin-left: 40px;
+}
+
+.link-sobre {
+    padding-top: 80px;
+}
+
+.link-sobre:hover {
+    padding-left: 30px;
+}
+
+.sobre-span {
+    padding-right: 60px;
+    margin-left: 48px;
+}
+
+.link-rede-sociais {
+    padding-top: 109px;
+    margin-bottom: 90px;
+}
+
+.link-rede-sociais:hover {
+    padding-left: 30px;
+}
+
+.redes-span {
+    padding-right: 10px;
+    padding-left: 40px;
+    margin-right: 10px;
+}
+
